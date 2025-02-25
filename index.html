@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="homeScreen" class="screen">
+        <h1>Snake Game</h1>
+        <p>Press "Start" to play!</p>
+        <button id="startBtn">Start Game</button>
+        <button id="settingsBtn">Settings</button>
+        <div id="levels">
+            <h2>Levels</h2> 
+            <button id="level1" class="level unlocked">Level 1</button>
+            <button id="level2" class="level locked" disabled>Level 2</button>
+            <button id="level3" class="level locked" disabled>Level 3</button>
+            <button id="level4" class="level locked" disabled>Level 4</button>
+            <button id="level5" class="level locked" disabled>Level 5</button>
+            <button id="level6" class="level locked" disabled>Level 6</button>
+            <button id="level7" class="level locked" disabled>Level 7</button>
+            <button id="level8" class="level locked" disabled>Level 8</button>
+            <button id="level9" class="level locked" disabled>Level 9</button>
+            <button id="level10" class="level locked" disabled>Level 10</button>
+        </div>
+    </div>
+
+    <div id="gameScreen" class="screen" style="display:none;">
+        <canvas id="gameCanvas"></canvas>
+    </div>
+
+    <div id="settingsScreen" class="screen" style="display:none;">
+        <h2>Settings</h2>
+        <p>Adjust the game speed and size of the snake:</p>
+        <label for="snakeSize">Snake Size: </label>
+        <input type="number" id="snakeSize" value="20" min="10" max="50"><br>
+        <label for="gameSpeed">Game Speed: </label>
+        <input type="number" id="gameSpeed" value="100" min="50" max="300"><br>
+        <button id="saveSettings">Save Settings</button>
+        <button id="backBtn">Back</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

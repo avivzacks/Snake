@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+background-color: darkcyan;  
+  font-family: Arial, sans-serif;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#homeScreen h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#homeScreen p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #d3d3d3;
+}
+
+#levels {
+    margin-top: 30px;
+}
+
+#levels .level {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+#levels .unlocked {
+    background-color: #4CAF50;
+}
+
+#levels .locked {
+    background-color: #d3d3d3;
+}
+
+canvas {
+    border: 1px solid #000;
+}
+
+#settingsScreen input {
+    padding: 5px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+#settingsScreen label {
+    font-size: 18px;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #d3d3d3;
+}
+
+
+
+#BackToManu{
+left: 30%;
+top: 60%;
+}
