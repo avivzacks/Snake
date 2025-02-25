@@ -290,7 +290,7 @@ function moveSnake() {
         snake.pop();  // אם לא אכל אוכל, הסר את הזנב של הנחש
     }
 }
-
+//change
 // פונקציה ליצירת אוכל
 function generateFood() {
     // Calculate the maximum grid positions based on current canvas size
